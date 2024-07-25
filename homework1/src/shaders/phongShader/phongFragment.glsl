@@ -15,7 +15,7 @@ varying highp vec3 vFragPos;  //片元在世界空间的位置
 varying highp vec3 vNormal;   //片元法线
 
 // Shadow map related variables
-#define NUM_SAMPLES 20
+#define NUM_SAMPLES 80
 #define BLOCKER_SEARCH_NUM_SAMPLES NUM_SAMPLES
 #define PCF_NUM_SAMPLES NUM_SAMPLES
 #define NUM_RINGS 10
@@ -93,7 +93,20 @@ float findBlocker( sampler2D shadowMap,  vec2 uv, float zReceiver ) {
 }
 
 float PCF(sampler2D shadowMap, vec4 coords) {
-  return 1.0;
+  float lengthscale = 10.0;
+  float shadowmapSize = 2048.0;
+  float curDepth = coords.z;
+  float visibility = 0.0;
+  float filterRange = lengthscale / shadowmapSize;
+  poissonDiskSamples(coords.xy);
+  for (int i = 0; i < NUM_SAMPLES; i++) {
+    float sampleDepth = unpack(texture2D(shadowMap, coords.xy + poissonDisk[i]*filterRange));
+    if (curDepth < sampleDepth + EPS) {
+      visibility += 1.0;
+    }
+  }
+  float avgVisibility = visibility / float(NUM_SAMPLES);
+  return avgVisibility;
 }
 
 float PCSS(sampler2D shadowMap, vec4 coords){
@@ -108,11 +121,18 @@ float PCSS(sampler2D shadowMap, vec4 coords){
 
 }
 
+float Bias(){
+  vec3 lightDir1 = normalize(uLightPos);
+  vec3 normal1 = normalize(vNormal);
+  float bias1 = max(0.08 * (1.0-dot(normal1,lightDir1)),0.08);
+  return bias1;
+}
 
 float useShadowMap(sampler2D shadowMap, vec4 shadowCoord){
   float mapDepth = unpack(texture2D(shadowMap,shadowCoord.xy));//shadow map中各点的最小深度，unpack将RGBA值转换成[0,1]的float
   float shadingDepth = shadowCoord.z; //当前着色点的深度
-  float visibility1 = ((mapDepth + EPS) < shadingDepth) ? 0.0 : 1.0;  
+  float bias = Bias();
+  float visibility1 = ((mapDepth + EPS) < (shadingDepth - bias)) ? 0.2 : 0.9;  
   return visibility1;
 }
 
@@ -146,8 +166,8 @@ void main(void) {
   //将 NDC 的范围从 [-1, 1] 映射到 [0, 1],可以直接用来作为纹理坐标去访问阴影贴图
   shadowCoord = shadowCoord * 0.5 + 0.5;
 
-  visibility = useShadowMap(uShadowMap, vec4(shadowCoord, 1.0));
-  //visibility = PCF(uShadowMap, vec4(shadowCoord, 1.0));
+  //visibility = useShadowMap(uShadowMap, vec4(shadowCoord, 1.0));
+  visibility = PCF(uShadowMap, vec4(shadowCoord, 1.0));
   //visibility = PCSS(uShadowMap, vec4(shadowCoord, 1.0));
 
   vec3 phongColor = blinnPhong();
