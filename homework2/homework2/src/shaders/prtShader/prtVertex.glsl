@@ -6,6 +6,7 @@ uniform mat4 uModelMatrix;
 uniform mat4 uViewMatrix;
 uniform mat4 uProjectionMatrix;
 
+//存储了预计算光照的球谐系数，通常包含9个系数，这里表现为三个mat3类型的矩阵
 uniform mat3 uPrecomputeL[3];
 
 varying highp vec3 vNormal;
@@ -31,5 +32,6 @@ void main(void) {
     vColor[i] = L_dot_LT(aPrecomputeLT, uPrecomputeL[i]);
   }
 
+  //在渲染管线中，每个顶点最终传递给片元着色器之前，其位置必须被指定到 gl_Position 中
   gl_Position = uProjectionMatrix * uViewMatrix * uModelMatrix * vec4(aVertexPosition, 1.0);
 }
