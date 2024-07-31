@@ -2,23 +2,24 @@
 precision highp float;
 #endif
 
-uniform vec3 uLightDir;
-uniform vec3 uCameraPos;
-uniform vec3 uLightRadiance;
-uniform sampler2D uGDiffuse;
-uniform sampler2D uGDepth;
-uniform sampler2D uGNormalWorld;
-uniform sampler2D uGShadow;
-uniform sampler2D uGPosWorld;
+uniform vec3 uLightDir;  //光线方向
+uniform vec3 uCameraPos;  //摄像机位置
+uniform vec3 uLightRadiance;  //光源辐射度
+uniform sampler2D uGDiffuse;  //漫反射纹理
+uniform sampler2D uGDepth;    //深度纹理
+uniform sampler2D uGNormalWorld;   //世界空间法线纹理
+uniform sampler2D uGShadow;   //阴影纹理
+uniform sampler2D uGPosWorld;   //世界空间位置纹理
 
-varying mat4 vWorldToScreen;
-varying highp vec4 vPosWorld;
+varying mat4 vWorldToScreen;  //世界空间到屏幕空间的变换矩阵
+varying highp vec4 vPosWorld;  //世界空间位置
 
 #define M_PI 3.1415926535897932384626433832795
-#define TWO_PI 6.283185307
-#define INV_PI 0.31830988618
-#define INV_TWO_PI 0.15915494309
+#define TWO_PI 6.283185307   //2*M_PI
+#define INV_PI 0.31830988618  //1/M_PI
+#define INV_TWO_PI 0.15915494309   //1/(2*M_PI)
 
+//用于从半球面采样一个方向，并返回pdf,类型为float
 float Rand1(inout float p) {
   p = fract(p * .1031);
   p *= p + 33.33;
@@ -26,10 +27,12 @@ float Rand1(inout float p) {
   return fract(p);
 }
 
+//用于从单位球面采样一个方向，并返回pdf,类型为vec2
 vec2 Rand2(inout float p) {
   return vec2(Rand1(p), Rand1(p));
 }
 
+//这个函数用于
 float InitRand(vec2 uv) {
 	vec3 p3  = fract(vec3(uv.xyx) * .1031);
   p3 += dot(p3, p3.yzx + 33.33);
@@ -117,13 +120,18 @@ vec3 GetGBufferDiffuse(vec2 uv) {
 /*
  * Evaluate diffuse bsdf value.
  *
- * wi, wo are all in world space.
- * uv is in screen space, [0, 1] x [0, 1].
+ * wi, wo 为世界坐标系中的值
+ * wi为入射方向
+ * wo为出射方向
+ * uv:着色点的屏幕空间坐标[0, 1] x [0, 1].
  *
  */
 vec3 EvalDiffuse(vec3 wi, vec3 wo, vec2 uv) {
-  vec3 L = vec3(0.0);
-  return L;
+  vec3 diffuse = GetGBufferDiffuse(uv);
+  vec3 normal = GetGBufferNormalWorld(uv);
+  //这里需要写0.，写0显示不出来
+  float cosTheta = max(0., dot(wi, normal));
+  return diffuse * cosTheta * INV_PI;
 }
 
 /*
@@ -131,8 +139,9 @@ vec3 EvalDiffuse(vec3 wi, vec3 wo, vec2 uv) {
  * uv is in screen space, [0, 1] x [0, 1].
  *
  */
+//返回着色点位于uv处得到的光源的辐射度
 vec3 EvalDirectionalLight(vec2 uv) {
-  vec3 Le = vec3(0.0);
+  vec3 Le = GetGBufferuShadow(uv) * uLightRadiance;
   return Le;
 }
 
@@ -146,7 +155,12 @@ void main() {
   float s = InitRand(gl_FragCoord.xy);
 
   vec3 L = vec3(0.0);
-  L = GetGBufferDiffuse(GetScreenCoordinate(vPosWorld.xyz));
+  vec2 uv = GetScreenCoordinate(vPosWorld.xyz);
+  vec3 wi = normalize(uLightDir);
+  vec3 wo = normalize(uCameraPos - vPosWorld.xyz);
+  L = EvalDiffuse(wi, wo, uv) * EvalDirectionalLight(uv);
+  //使用 clamp 函数将向量 L 的每个分量限制在0.0和1.0之间
+  //使用 pow 函数对限制后的颜色 L 进行伽马校正，使用了伽马值2.2
   vec3 color = pow(clamp(L, vec3(0.0), vec3(1.0)), vec3(1.0 / 2.2));
   gl_FragColor = vec4(vec3(color.rgb), 1.0);
 }
