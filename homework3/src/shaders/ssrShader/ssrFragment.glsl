@@ -145,7 +145,23 @@ vec3 EvalDirectionalLight(vec2 uv) {
   return Le;
 }
 
+//返回是否相交，相交时将hitPos设置为交点
+//ori代表光线的起点，dir代表光线的方向
 bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
+  float step = 0.05;
+  const int maxStep = 150;
+  vec3 stepWithDir = step * dir;
+  vec3 curPos = ori;
+  for (int i = 0; i < maxStep; i++) {
+    float depth = GetDepth(curPos);
+    vec2 uv = GetScreenCoordinate(curPos);
+    float gDepth = GetGBufferDepth(uv);
+    if (depth - gDepth > 0.0001) {
+      hitPos = curPos;
+      return true;
+    }
+    curPos += stepWithDir;
+  }
   return false;
 }
 
