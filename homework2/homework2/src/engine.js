@@ -93,6 +93,7 @@ async function GAMES202Main() {
 			val = result;
 		});
 
+		//使用正则表达式将文件内容按空白字符（包括空格和换行符）分割成数组 preArray。
 		let preArray = val.split(/[(\r\n)\r\n' ']+/);
 		let lineArray = [];
 		precomputeLT[i] = []
