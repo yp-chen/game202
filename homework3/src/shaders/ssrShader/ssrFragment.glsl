@@ -166,7 +166,7 @@ bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
   return false;
 }
 
-#define SAMPLE_NUM 20
+#define SAMPLE_NUM 1
 
 void main() {
   float s = InitRand(gl_FragCoord.xy);
@@ -184,6 +184,7 @@ void main() {
     vec3 b1,b2;
     vec3 normal = GetGBufferNormalWorld(uv);
     LocalBasis(normal, b1, b2);
+    //TBN矩阵，N放最后面
     vec3 dir = normalize(mat3(b1, b2, normal) * localDir);
 
     vec3 hitPos;
