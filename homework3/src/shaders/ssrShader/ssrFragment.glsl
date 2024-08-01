@@ -184,12 +184,12 @@ void main() {
     vec3 b1,b2;
     vec3 normal = GetGBufferNormalWorld(uv);
     LocalBasis(normal, b1, b2);
-    vec3 dir = normalize(mat3(normal, b1, b2) * localDir);
+    vec3 dir = normalize(mat3(b1, b2, normal) * localDir);
 
-    float hitPos;
+    vec3 hitPos;
     if (RayMarch(vPosWorld.xyz, dir, hitPos)) {
-      hitPosuv = GetScreenCoordinate(hitPos);
-      L_ind += EvalDiffuse(dir, wo, vPosWorld.xyz) / pdf * EvalDiffuse(wi, dir, hitPosuv) * EvalDirectionalLight(hitPosuv);
+      vec2 hitPosuv = GetScreenCoordinate(hitPos);
+      L_ind += EvalDiffuse(dir, wo, uv) / pdf * EvalDiffuse(wi, dir, hitPosuv) * EvalDirectionalLight(hitPosuv);
     }
   }
 
