@@ -59,6 +59,7 @@ vec3 SampleHemisphereCos(inout float s, out float pdf) {
   return dir;
 }
 
+//用于根据传入的法线方向n，建立局部坐标系，并返回b1和b2两个切线向量
 void LocalBasis(vec3 n, out vec3 b1, out vec3 b2) {
   float sign_ = sign(n.z);
   if (n.z == 0.0) {
@@ -165,7 +166,7 @@ bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
   return false;
 }
 
-#define SAMPLE_NUM 1
+#define SAMPLE_NUM 20
 
 void main() {
   float s = InitRand(gl_FragCoord.xy);
@@ -175,6 +176,26 @@ void main() {
   vec3 wi = normalize(uLightDir);
   vec3 wo = normalize(uCameraPos - vPosWorld.xyz);
   L = EvalDiffuse(wi, wo, uv) * EvalDirectionalLight(uv);
+ 
+  vec3 L_ind = vec3(0.0);
+  for(int i = 0; i < SAMPLE_NUM; i++){
+    float pdf;
+    vec3 localDir = SampleHemisphereCos(s, pdf);
+    vec3 b1,b2;
+    vec3 normal = GetGBufferNormalWorld(uv);
+    LocalBasis(normal, b1, b2);
+    vec3 dir = normalize(mat3(normal, b1, b2) * localDir);
+
+    float hitPos;
+    if (RayMarch(vPosWorld.xyz, dir, hitPos)) {
+      hitPosuv = GetScreenCoordinate(hitPos);
+      L_ind += EvalDiffuse(dir, wo, vPosWorld.xyz) / pdf * EvalDiffuse(wi, dir, hitPosuv) * EvalDirectionalLight(hitPosuv);
+    }
+  }
+
+  L_ind /= float(SAMPLE_NUM);
+
+  L = L + L_ind;
   //使用 clamp 函数将向量 L 的每个分量限制在0.0和1.0之间
   //使用 pow 函数对限制后的颜色 L 进行伽马校正，使用了伽马值2.2
   vec3 color = pow(clamp(L, vec3(0.0), vec3(1.0)), vec3(1.0 / 2.2));
