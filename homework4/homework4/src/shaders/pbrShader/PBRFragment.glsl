@@ -61,7 +61,7 @@ vec3 fresnelSchlick(vec3 F0, vec3 V, vec3 H)
 {
     // TODO: To calculate Schlick F here
     float HdotV = max(dot(H, V), 0.0); 
-    return F0 + (1.0 - F0) * pow(1.0 - NdotV, 5.0);
+    return F0 + (1.0 - F0) * pow(1.0 - HdotV, 5.0);
 }
 
 void main(void) {

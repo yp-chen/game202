@@ -61,8 +61,8 @@ float GeometrySmith(vec3 N, vec3 V, vec3 L, float roughness)
 vec3 fresnelSchlick(vec3 F0, vec3 V, vec3 H)
 {
     // TODO: To calculate Schlick F here
-    float HdotV = max(dot(H, V), 0.0); 
-    return F0 + (1.0 - F0) * pow(1.0 - NdotV, 5.0);
+  float HdotV = max(dot(H, V), 0.0); 
+  return F0 + (1.0 - F0) * pow(clamp(1.0 - HdotV, 0.0, 1.0), 5.0);
 }
 
 
