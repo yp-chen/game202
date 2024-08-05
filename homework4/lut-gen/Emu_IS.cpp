@@ -46,6 +46,8 @@ Vec3f ImportanceSampleGGX(Vec2f Xi, Vec3f N, float roughness) {
 
     //TODO: tangent coordinates - Bonus 1
     //得到切线坐标系
+    //如果法线 N 几乎与世界的上方向平行，则必须选择另一个向量来避免数值不稳定（即两个平行或几乎平行的向量无法产生有效的叉乘）。
+    //所以，如果N.z值非常接近1（也就是说N几乎指向上方），则选择x轴作为上向量。使用 0.999 是一种余量设置，以避免精度问题。
     Vec3f up = abs(N.z) < 0.999 ? Vec3f(0.0, 0.0, 1.0) : Vec3f(1.0, 0.0, 0.0);
     Vec3f tangent = normalize(cross(up, N));
     Vec3f bitangent = cross(N, tangent);
