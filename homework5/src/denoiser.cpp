@@ -19,7 +19,7 @@ void Denoiser::Reprojection(const FrameInfo &frameInfo) {
             m_valid(x, y) = false;
             m_misc(x, y) = Float3(0.f);
 
-            float id = frameInfo.m_id(x,y);
+            int id = frameInfo.m_id(x,y);
             if (id == -1) {
                 continue;
             }
@@ -66,8 +66,8 @@ void Denoiser::TemporalAccumulation(const Buffer2D<Float3> &curFilteredColor) {
                 int y_start = std::max(y - kernelRadius, 0);
                 int y_end = std::min(y + kernelRadius, height - 1);
 
-                Float3 mu = 0.0f;
-                Float3 sigma = 0.0f;
+                Float3 mu(0.f);
+                Float3 sigma(0.f);
                 for (int m = x_start; m <= x_end; m++) {
                     for (int n = y_start; n <= y_end; n++) {
                         mu += curFilteredColor(m, n);
