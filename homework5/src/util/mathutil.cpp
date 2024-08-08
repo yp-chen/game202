@@ -113,6 +113,7 @@ Matrix4x4 Transpose(const Matrix4x4 &mat) {
     return Matrix4x4(m);
 }
 
+//用矩阵变换点或者向量，type为Float3::Point表示点，Float3::Vector表示向量
 Float3 Matrix4x4::operator()(const Float3 &p, const Float3::EType &type) const {
     Float3 ret;
     if (type == Float3::Point) {

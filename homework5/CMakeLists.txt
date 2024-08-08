@@ -40,3 +40,7 @@ endif()
 ########################################
 
 add_executable(Denoise ${SOURCE_FILE})
+
+set_target_properties(Denoise PROPERTIES
+  RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/src"
+)
