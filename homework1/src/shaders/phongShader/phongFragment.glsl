@@ -15,7 +15,7 @@ varying highp vec3 vFragPos;  //片元在世界空间的位置
 varying highp vec3 vNormal;   //片元法线
 
 // Shadow map related variables
-#define NUM_SAMPLES 80
+#define NUM_SAMPLES 50
 #define BLOCKER_SEARCH_NUM_SAMPLES NUM_SAMPLES
 #define PCF_NUM_SAMPLES NUM_SAMPLES
 #define NUM_RINGS 10
@@ -119,7 +119,7 @@ float findBlocker(sampler2D shadowMap, vec2 uv, float zReceiver) {
   else
     return blockDepth / float(blockerNum);
 }
-
+//自适应Shadow Bias算法 https://zhuanlan.zhihu.com/p/370951892
 float getShadowBias(float c, float filterRadiusUV){
   vec3 normal = normalize(vNormal);
   vec3 lightDir = normalize(uLightPos - vFragPos);
@@ -150,14 +150,15 @@ float PCF(sampler2D shadowMap, vec4 coords, float biasC, float filterRadiusUV) {
   return avgVisibility;
 }
 
-#define WeightOfLight 10.0
 float PCSS(sampler2D shadowMap, vec4 coords, float biasC){
-  float visibility = 0.0;
-  poissonDiskSamples(coords.xy);
   // STEP 1: avgblocker depth
   float avgblockerdepth = findBlocker(shadowMap, coords.xy, coords.z);
+
+  if(avgblockerdepth < -EPS)
+    return 1.0;
+
   // STEP 2: penumbra size
-  float penumbraSize = WeightOfLight*(coords.z - avgblockerdepth) / avgblockerdepth;
+  float penumbraSize = LIGHT_SIZE_UV*(coords.z - avgblockerdepth) / avgblockerdepth;
   // STEP 3: filtering
   return PCF(shadowMap, coords, biasC, penumbraSize);
 }
