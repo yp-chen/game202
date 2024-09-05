@@ -1,21 +1,19 @@
 class ShadowMaterial extends Material {
 
-    constructor(light, translate, scale, vertexShader, fragmentShader) {
+    constructor(light, translate, scale, lightIndex, vertexShader, fragmentShader) {
         let lightMVP = light.CalcLightMVP(translate, scale);
 
         super({
             'uLightMVP': { type: 'matrix4fv', value: lightMVP }
-        }, [], vertexShader, fragmentShader, light.fbo);
+        }, [], vertexShader, fragmentShader, light.fbo, lightIndex);
     }
 }
 
-//用于创建一个ShadowMaterial实例
-async function buildShadowMaterial(light, translate, scale, vertexPath, fragmentPath) {
-
+async function buildShadowMaterial(light, translate, scale, lightIndex, vertexPath, fragmentPath) {
 
     let vertexShader = await getShaderString(vertexPath);
     let fragmentShader = await getShaderString(fragmentPath);
 
-    return new ShadowMaterial(light, translate, scale, vertexShader, fragmentShader);
+    return new ShadowMaterial(light, translate, scale, lightIndex, vertexShader, fragmentShader);
 
 }

@@ -6,8 +6,7 @@ class Material {
     #fsSrc;//片元着色器
     // Uniforms is a map, attribs is a Array
     //构造函数constructor()————创建和初始化在类中创建的对象
-    constructor(uniforms, attribs, vsSrc, fsSrc, frameBuffer) {
-        //这些this.xx字段表示创建一个实例字段名，其中2个公共字段2个私有
+    constructor(uniforms, attribs, vsSrc, fsSrc, frameBuffer, lightIndex) {
         this.uniforms = uniforms;
         this.attribs = attribs;
         this.#vsSrc = vsSrc;
@@ -20,6 +19,7 @@ class Material {
         this.#flatten_attribs = attribs;
 
         this.frameBuffer = frameBuffer;
+        this.lightIndex = lightIndex;
     }
 
     //创建一个方法，用以储存mesh的额外属性

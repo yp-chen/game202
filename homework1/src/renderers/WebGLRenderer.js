@@ -26,7 +26,7 @@ class WebGLRenderer {
         gl.depthFunc(gl.LEQUAL); //指定深度测试函数，LEQUAL表示深度值小于或等于参考值时通过
 
         console.assert(this.lights.length != 0, "No light");
-        console.assert(this.lights.length == 1, "Multiple lights");
+        // console.assert(this.lights.length == 1, "Multiple lights");
 
         //对于每一个光源，这里好像只支持一个光源
         for (let l = 0; l < this.lights.length; l++) {
@@ -42,13 +42,22 @@ class WebGLRenderer {
                     this.shadowMeshes[i].draw(this.camera);
                 }
             }
+            if(l != 0)
+            {
+                // 开启混合，把后续渲染的结果混合到第一次渲染的结果上，否则会覆盖第一次的渲染结果
+                gl.enable(gl.BLEND);
+                gl.blendFunc(gl.ONE, gl.ONE);
+            }
 
             // 第二趟pass，Camera pass
             for (let i = 0; i < this.meshes.length; i++) {
+                if(this.meshes[i].material.lightIndex != l)
+                    continue;
                 this.gl.useProgram(this.meshes[i].shader.program.glShaderProgram);
                 this.gl.uniform3fv(this.meshes[i].shader.program.uniforms.uLightPos, this.lights[l].entity.lightPos);
                 this.meshes[i].draw(this.camera);
             }
+            gl.disable(gl.BLEND);
         }
     }
 }

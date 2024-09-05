@@ -51,11 +51,15 @@ function GAMES202Main() {
 	const renderer = new WebGLRenderer(gl, camera);
 
 	//创建方向光
-	let lightPos = [0, 80, 80];//光源位置
+	let lightPos1 = [0, 80, 80];//光源位置
 	let focalPoint = [0, 0, 0];//聚光焦点
 	let lightUp = [0, 1, 0]//光源朝上的方向
-	const directionLight = new DirectionalLight(5000, [1, 1, 1], lightPos, focalPoint, lightUp, true, renderer.gl);
-	renderer.addLight(directionLight);
+	const directionLight1 = new DirectionalLight(500, [1, 1, 1], lightPos1, focalPoint, lightUp, true, renderer.gl);
+	renderer.addLight(directionLight1);
+	
+	let lightPos2 = [90, 90, 0];
+	const directionLight2 = new DirectionalLight(500, [1, 1, 1], lightPos2, focalPoint, lightUp, true, renderer.gl);
+	renderer.addLight(directionLight2);
 	
 	//加载模型,并设置位置和缩放比例
 	let floorTransform = setTransform(0, 0, -30, 4, 4, 4);
