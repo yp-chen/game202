@@ -88,26 +88,27 @@ void uniformDiskSamples( const in vec2 randomSeed ) {
   }
 }
 
-float findBlocker( sampler2D shadowMap,  vec2 uv, float zReceiver ) {
-  float stride = 20.0;
-  float shadowMapSize = 2048.0;
-  float filterRange = stride / shadowMapSize;
-  int visibility = 0;
-  float avgblockerdepth = 0.0;
-  for (int i = 0; i < BLOCKER_SEARCH_NUM_SAMPLES; i++) {
-    float sampleDepth = unpack(texture2D(shadowMap, uv + poissonDisk[i]*filterRange));
-    if (zReceiver > sampleDepth + EPS) {
-      visibility += 1;
-      avgblockerdepth += sampleDepth;
+float findBlocker(sampler2D shadowMap, vec2 uv, float zReceiver) {
+  int blockerNum = 0;
+  float blockDepth = 0.;
+
+  float posZFromLight = vPositionFromLight.z;
+
+  float searchRadius = 0.2 * (posZFromLight - 0.01) / posZFromLight;
+
+  poissonDiskSamples(uv);
+  for(int i = 0; i < NUM_SAMPLES; i++){
+    float shadowDepth = unpack(texture2D(shadowMap, uv + poissonDisk[i] * searchRadius));
+    if(zReceiver > shadowDepth){
+      blockerNum++;
+      blockDepth += shadowDepth;
     }
   }
-  if (visibility > 0) {
-    avgblockerdepth = avgblockerdepth / float(visibility);
-  }
-  else {
-    avgblockerdepth = 1.0;
-  }
-  return avgblockerdepth;
+
+  if(blockerNum == 0)
+    return -1.;
+  else
+    return blockDepth / float(blockerNum);
 }
 
 float PCF(sampler2D shadowMap, vec4 coords) {
