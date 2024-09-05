@@ -44,15 +44,17 @@ function loadOBJ(renderer, path, name, objMaterial, transform) {
 
 							let material, shadowMaterial;
 							let Translation = [transform.modelTransX, transform.modelTransY, transform.modelTransZ];
+							let Rotation = [transform.modelRotateX, transform.modelRotateY, transform.modelRotateZ];
 							let Scale = [transform.modelScaleX, transform.modelScaleY, transform.modelScaleZ];
 
+							//原本只添加第一个light的材质，改成添加所有light的材质，并添加旋转参数
 							for(let i = 0; i < renderer.lights.length; i++){
 								let light = renderer.lights[i].entity;
 								switch (objMaterial) {
-								  case 'PhongMaterial':
-									//添加光源索引参数 i
-									material = buildPhongMaterial(colorMap, mat.specular.toArray(), light, Translation, Scale, i, "./src/shaders/phongShader/phongVertex.glsl", "./src/shaders/phongShader/phongFragment.glsl");
-									shadowMaterial = buildShadowMaterial(light, Translation, Scale, i, "./src/shaders/shadowShader/shadowVertex.glsl", "./src/shaders/shadowShader/shadowFragment.glsl");
+								case 'PhongMaterial':
+									//添加旋转参数、光源索引参数
+									material = buildPhongMaterial(colorMap, mat.specular.toArray(), light, Translation, Rotation, Scale, i, "./src/shaders/phongShader/phongVertex.glsl", "./src/shaders/phongShader/phongFragment.glsl");
+									shadowMaterial = buildShadowMaterial(light, Translation, Rotation, Scale, i, "./src/shaders/shadowShader/shadowVertex.glsl", "./src/shaders/shadowShader/shadowFragment.glsl");
 									break;
 								}
 								material.then((data) => {

@@ -6,9 +6,9 @@ class PhongMaterial extends Material {
     // vec3f specular->材质的高光项
     // 类 light ->光源
     // translate&scale -> 根据engine.js定义的setTransform()分别赋值
-    constructor(color, specular, light, translate, scale, lightIndex, vertexShader, fragmentShader) {
+    constructor(color, specular, light, translate, rotate, scale, lightIndex, vertexShader, fragmentShader) {
         //计算光源的MVP矩阵
-        let lightMVP = light.CalcLightMVP(translate, scale);
+        let lightMVP = light.CalcLightMVP(translate, rotate, scale);
         //获取光源的强度
         let lightIntensity = light.mat.GetIntensity();
 
@@ -26,12 +26,12 @@ class PhongMaterial extends Material {
     }
 }
 
-async function buildPhongMaterial(color, specular, light, translate, scale, lightIndex, vertexPath, fragmentPath) {
+async function buildPhongMaterial(color, specular, light, translate, rotate, scale, lightIndex, vertexPath, fragmentPath) {
 
 
     let vertexShader = await getShaderString(vertexPath);
     let fragmentShader = await getShaderString(fragmentPath);
 
-    return new PhongMaterial(color, specular, light, translate, scale, lightIndex, vertexShader, fragmentShader);
+    return new PhongMaterial(color, specular, light, translate, rotate, scale, lightIndex, vertexShader, fragmentShader);
 
 }

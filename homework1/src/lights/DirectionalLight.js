@@ -1,7 +1,7 @@
 class DirectionalLight {
 
     constructor(lightIntensity, lightColor, lightPos, focalPoint, lightUp, hasShadowMap, gl) {
-        this.mesh = Mesh.cube(setTransform(0, 0, 0, 0.2, 0.2, 0.2, 0));//创建一个立方体
+        this.mesh = Mesh.cube(setTransform(0, 0, 0, 0, 0, 0, 0.5, 0.5, 0.5, 0));//创建一个立方体
         this.mat = new EmissiveMaterial(lightIntensity, lightColor);//创建一个发光材质
         this.lightPos = lightPos;//光源位置
         this.focalPoint = focalPoint;//聚光点
@@ -18,7 +18,7 @@ class DirectionalLight {
     //计算光源的MVP矩阵,为了实现第一趟pass
     //参数translate: 光源位置
     //参数scale: 光源缩放
-    CalcLightMVP(translate, scale) {
+    CalcLightMVP(translate, rotate, scale) {
         let lightMVP = mat4.create();
         let modelMatrix = mat4.create();
         let viewMatrix = mat4.create();
@@ -26,12 +26,15 @@ class DirectionalLight {
 
         // Model transform
         mat4.translate(modelMatrix, modelMatrix, translate);//光源位置
+        mat4.rotateX(modelMatrix, modelMatrix, rotate[0])
+        mat4.rotateY(modelMatrix, modelMatrix, rotate[1])
+        mat4.rotateZ(modelMatrix, modelMatrix, rotate[2])
         mat4.scale(modelMatrix, modelMatrix, scale);//光源缩放
         // View transform
         //位置、朝向、上方向
         mat4.lookAt(viewMatrix, this.lightPos, this.focalPoint, this.lightUp);//光源朝向
         // Projection transform
-        mat4.ortho(projectionMatrix,-100,100,-100,100,1e-2,400);//正交投影
+        mat4.ortho(projectionMatrix,-200,200,-200,200,1e-2,500);//正交投影
         //将b*c存储在a中
         mat4.multiply(lightMVP, projectionMatrix, viewMatrix);
         mat4.multiply(lightMVP, lightMVP, modelMatrix);

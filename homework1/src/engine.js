@@ -54,17 +54,19 @@ function GAMES202Main() {
 	let lightPos1 = [0, 80, 80];//光源位置
 	let focalPoint = [0, 0, 0];//聚光焦点
 	let lightUp = [0, 1, 0]//光源朝上的方向
-	const directionLight1 = new DirectionalLight(500, [1, 1, 1], lightPos1, focalPoint, lightUp, true, renderer.gl);
-	renderer.addLight(directionLight1);
-	
+	const directionLight = new DirectionalLight(2500, [1, 1, 1], lightPos1, focalPoint, lightUp, true, renderer.gl);
+	//Edit End
+	renderer.addLight(directionLight);
+
+	//Edit Start 添加第二个光源
 	let lightPos2 = [90, 90, 0];
-	const directionLight2 = new DirectionalLight(500, [1, 1, 1], lightPos2, focalPoint, lightUp, true, renderer.gl);
+	const directionLight2 = new DirectionalLight(2500, [1, 1, 1], lightPos2, focalPoint, lightUp, true, renderer.gl);
 	renderer.addLight(directionLight2);
 	
 	//加载模型,并设置位置和缩放比例
-	let floorTransform = setTransform(0, 0, -30, 4, 4, 4);
-	let obj1Transform = setTransform(0, 0, 0, 20, 20, 20);
-	let obj2Transform = setTransform(40, 0, -40, 10, 10, 10);
+	let floorTransform = setTransform(0, 0, -30, 0, 0, 0, 4, 4, 4);
+	let obj1Transform = setTransform(0, 0, 0, 0, 0, 0, 20, 20, 20);
+	let obj2Transform = setTransform(40, 0, -40, 0, 0, 0, 10, 10, 10);
 
 	loadOBJ(renderer, 'assets/mary/', 'Marry', 'PhongMaterial', obj1Transform);
 	loadOBJ(renderer, 'assets/mary/', 'Marry', 'PhongMaterial', obj2Transform);
@@ -88,26 +90,39 @@ function GAMES202Main() {
 	}
 	createGUI();
 
+	let prevTime = 0;
+
 	//定义一个回调函数mainLoop()
 	function mainLoop(now) {
 		cameraControls.update();//每次递归更新一次控制器
- 
-		renderer.render();//每次递归都执行一次渲染
+		let deltaime = (now - prevTime) / 1000;
+		renderer.render(now, deltaime);//每次递归都执行一次渲染
 		//递归渲染
 		requestAnimationFrame(mainLoop);
+		prevTime = now;
 	}
 	//执行第一帧渲染
 	requestAnimationFrame(mainLoop);
 }
 
 //设置模型的位置和缩放
-function setTransform(t_x, t_y, t_z, s_x, s_y, s_z) {
+function setTransform(t_x, t_y, t_z, r_x, r_y, r_z, s_x, s_y, s_z) {
 	return {
 		modelTransX: t_x,
 		modelTransY: t_y,
 		modelTransZ: t_z,
+
+		modelRotateX: r_x,
+		modelRotateY: r_y,
+		modelRotateZ: r_z,
+
 		modelScaleX: s_x,
 		modelScaleY: s_y,
 		modelScaleZ: s_z,
 	};
+}
+
+//角度转弧度
+function degrees2Radians(degrees){
+	return 3.1415927 / 180 * degrees;
 }
