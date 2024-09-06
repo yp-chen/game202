@@ -62,7 +62,7 @@ namespace ProjEnv
         {{1, 0, 0}, {0, -1, 0}, {0, 0, 1}},   // posz
     };
 
-    //计算单位球面上的矩形区域，
+    //计算单位球面上的矩形区域，[x,y]-[0,0]
     float CalcPreArea(const float &x, const float &y)
     {
         return std::atan2(x * y, std::sqrt(x * x + y * y + 1.0));
@@ -97,6 +97,7 @@ namespace ProjEnv
 
     // template <typename T> T ProjectSH() {}
 
+    //计算cubemap上每个像素的球谐系数，并存储在SHCoeffiecents中
     template <size_t SHOrder>
     std::vector<Eigen::Array3f> PrecomputeCubemapSH(const std::vector<std::unique_ptr<float[]>> &images,
                                                     const int &width, const int &height,
@@ -107,6 +108,7 @@ namespace ProjEnv
         cubemapDirs.reserve(6 * width * height);
         for (int i = 0; i < 6; i++)
         {
+            //获取当前面的三个方向向量
             Eigen::Vector3f faceDirX = cubemapFaceDirections[i][0];
             Eigen::Vector3f faceDirY = cubemapFaceDirections[i][1];
             Eigen::Vector3f faceDirZ = cubemapFaceDirections[i][2];
@@ -274,7 +276,7 @@ public:
         return coeffs;
     }
 
-    //在实际渲染之前预处理场景数据。此方法加载立方体贴图并计算其球谐系数，还会计算场景中每个顶点的输运球谐系数
+    //在实际渲染之前预处理场景数据。此方法加载立方体贴图并计算其球谐系数，还会计算场景中每个顶点的transfrom球谐系数
     virtual void preprocess(const Scene *scene) override
     {
 
@@ -328,6 +330,9 @@ public:
                     return 0;
                 }
             };
+            //该函数用来计算给定球谐阶数、投影函数、采样数下的球谐系数，
+            //并返回一个 std::unique_ptr 存储的表示为 std::vector<double>的球谐系数，
+            //投影函数为用户自定义的 lambda 函数，签名为 double(double,double)
             auto shCoeff = sh::ProjectFunction(SHOrder, shFunc, m_SampleCount);
             for (int j = 0; j < shCoeff->size(); j++)
             {
