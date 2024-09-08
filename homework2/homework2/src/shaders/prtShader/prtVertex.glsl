@@ -1,12 +1,13 @@
 attribute vec3 aVertexPosition;
 attribute vec3 aNormalPosition;
+//光传输投影到前三层SH函数得到的系数，一个顶点包含9个系数，用mat3来存储。
 attribute mat3 aPrecomputeLT;
 
 uniform mat4 uModelMatrix;
 uniform mat4 uViewMatrix;
 uniform mat4 uProjectionMatrix;
 
-//存储了预计算光照的球谐系数，通常包含9个系数，这里表现为三个mat3类型的矩阵
+//光照投影到前三层SH函数得到的系数，一个顶点包含27个系数，R对应9个，G对应9个，B对应9个，用三个mat3来存储
 uniform mat3 uPrecomputeL[3];
 
 varying highp vec3 vNormal;

@@ -19,26 +19,29 @@ varying highp vec4 vPosWorld;  //世界空间位置
 #define INV_PI 0.31830988618  //1/M_PI
 #define INV_TWO_PI 0.15915494309   //1/(2*M_PI)
 
-//用于从半球面采样一个方向，并返回pdf,类型为float
+//该函数返回一个0-1随机数，类型为float
+//fract函数返回x - floor(x),即返回x的小数部分
 float Rand1(inout float p) {
+  //几个步骤用来打乱p的值，生成一个伪随机数
   p = fract(p * .1031);
   p *= p + 33.33;
   p *= p + p;
   return fract(p);
 }
 
-//用于从单位球面采样一个方向，并返回pdf,类型为vec2
+//该函数返回一个二维伪随机数，类型为vec2
 vec2 Rand2(inout float p) {
   return vec2(Rand1(p), Rand1(p));
 }
 
-//这个函数用于
+//这个函数产生一个随机数种子，用于后续的随机数生成
 float InitRand(vec2 uv) {
 	vec3 p3  = fract(vec3(uv.xyx) * .1031);
   p3 += dot(p3, p3.yzx + 33.33);
   return fract((p3.x + p3.y) * p3.z);
 }
 
+//均匀采样上半球面，取得采样方向和对应pdf
 vec3 SampleHemisphereUniform(inout float s, out float pdf) {
   vec2 uv = Rand2(s);
   float z = uv.x;
@@ -49,6 +52,7 @@ vec3 SampleHemisphereUniform(inout float s, out float pdf) {
   return dir;
 }
 
+//按照cosine权重采样上半球面，取得采样方向和对应pdf
 vec3 SampleHemisphereCos(inout float s, out float pdf) {
   vec2 uv = Rand2(s);
   float z = sqrt(1.0 - uv.x);
@@ -63,7 +67,7 @@ vec3 SampleHemisphereCos(inout float s, out float pdf) {
 void LocalBasis(vec3 n, out vec3 b1, out vec3 b2) {
   float sign_ = sign(n.z);
   if (n.z == 0.0) {
-    sign_ = 1.0;
+    sign_ = 1.0;//确保后续除法不会由于分母为零而导致问题
   }
   float a = -1.0 / (sign_ + n.z);
   float b = n.x * n.y * a;
@@ -74,7 +78,7 @@ void LocalBasis(vec3 n, out vec3 b1, out vec3 b2) {
 vec4 Project(vec4 a) {
   return a / a.w;
 }
-
+//得到屏幕空间的深度值
 float GetDepth(vec3 posWorld) {
   float depth = (vWorldToScreen * vec4(posWorld, 1.0)).w;
   return depth;
@@ -84,11 +88,13 @@ float GetDepth(vec3 posWorld) {
  * Transform point from world space to screen space([0, 1] x [0, 1])
  *
  */
+//获取屏幕空间的坐标 
 vec2 GetScreenCoordinate(vec3 posWorld) {
   vec2 uv = Project(vWorldToScreen * vec4(posWorld, 1.0)).xy * 0.5 + 0.5;
   return uv;
 }
 
+//根据uv从纹理处获取深度值
 float GetGBufferDepth(vec2 uv) {
   float depth = texture2D(uGDepth, uv).x;
   if (depth < 1e-2) {
@@ -114,6 +120,7 @@ float GetGBufferuShadow(vec2 uv) {
 
 vec3 GetGBufferDiffuse(vec2 uv) {
   vec3 diffuse = texture2D(uGDiffuse, uv).xyz;
+  //2.2是gamma校正
   diffuse = pow(diffuse, vec3(2.2));
   return diffuse;
 }
@@ -127,6 +134,7 @@ vec3 GetGBufferDiffuse(vec2 uv) {
  * uv:着色点的屏幕空间坐标[0, 1] x [0, 1].
  *
  */
+//fr⋅cos(θi),漫反射，乘上了1/pi
 vec3 EvalDiffuse(vec3 wi, vec3 wo, vec2 uv) {
   vec3 diffuse = GetGBufferDiffuse(uv);
   vec3 normal = GetGBufferNormalWorld(uv);
@@ -140,7 +148,7 @@ vec3 EvalDiffuse(vec3 wi, vec3 wo, vec2 uv) {
  * uv is in screen space, [0, 1] x [0, 1].
  *
  */
-//返回着色点位于uv处得到的光源的辐射度
+//返回着色点位于uv处得到的光源的辐射度,Li⋅V
 vec3 EvalDirectionalLight(vec2 uv) {
   vec3 Le = GetGBufferuShadow(uv) * uLightRadiance;
   return Le;
@@ -150,7 +158,7 @@ vec3 EvalDirectionalLight(vec2 uv) {
 //ori代表光线的起点，dir代表光线的方向
 bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
   float step = 0.05;
-  const int maxStep = 150;
+  const int maxStep = 150;  //最大步数
   vec3 stepWithDir = step * dir;
   vec3 curPos = ori;
   for (int i = 0; i < maxStep; i++) {
@@ -169,31 +177,34 @@ bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
 #define SAMPLE_NUM 1
 
 void main() {
-  float s = InitRand(gl_FragCoord.xy);
+  float s = InitRand(gl_FragCoord.xy);//初始化随机数种子
 
   vec3 L = vec3(0.0);
   vec2 uv = GetScreenCoordinate(vPosWorld.xyz);
   vec3 wi = normalize(uLightDir);
   vec3 wo = normalize(uCameraPos - vPosWorld.xyz);
+  //直接光照,由于使用的是平行光，所以不需要积分
   L = EvalDiffuse(wi, wo, uv) * EvalDirectionalLight(uv);
  
   vec3 L_ind = vec3(0.0);
   for(int i = 0; i < SAMPLE_NUM; i++){
     float pdf;
-    vec3 localDir = SampleHemisphereCos(s, pdf);
+    vec3 localDir = SampleHemisphereCos(s, pdf);//得到一个随机方向和pdf
     vec3 b1,b2;
     vec3 normal = GetGBufferNormalWorld(uv);
     LocalBasis(normal, b1, b2);
     //TBN矩阵，N放最后面
-    vec3 dir = normalize(mat3(b1, b2, normal) * localDir);
+    vec3 dir = normalize(mat3(b1, b2, normal) * localDir);//将随机方向转换到世界坐标系
 
     vec3 hitPos;
     if (RayMarch(vPosWorld.xyz, dir, hitPos)) {
       vec2 hitPosuv = GetScreenCoordinate(hitPos);
+      //两次反射
       L_ind += EvalDiffuse(dir, wo, uv) / pdf * EvalDiffuse(wi, dir, hitPosuv) * EvalDirectionalLight(hitPosuv);
     }
   }
 
+  //间接光照
   L_ind /= float(SAMPLE_NUM);
 
   L = L + L_ind;
