@@ -174,7 +174,7 @@ bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
   return false;
 }
 
-#define SAMPLE_NUM 1
+#define SAMPLE_NUM 32
 
 void main() {
   float s = InitRand(gl_FragCoord.xy);//初始化随机数种子
