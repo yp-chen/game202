@@ -3,7 +3,6 @@
 
 CMakeFiles/lut-Eavg-IS.dir/Eavg_IS.cpp.obj
  C:/Users/yongpeng.chen/Desktop/games/game202/homework4/lut-gen/Eavg_IS.cpp
- C:/Users/yongpeng.chen/Desktop/games/game202/homework4/lut-gen/ext/stb_image.h
  C:/Users/yongpeng.chen/Desktop/games/game202/homework4/lut-gen/ext/stb_image_write.h
  C:/Users/yongpeng.chen/Desktop/games/game202/homework4/lut-gen/ext/vec.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h
@@ -45,6 +44,8 @@ CMakeFiles/lut-Eavg-IS.dir/Eavg_IS.cpp.obj
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h
@@ -57,6 +58,7 @@ CMakeFiles/lut-Eavg-IS.dir/Eavg_IS.cpp.obj
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h
@@ -94,7 +96,9 @@ CMakeFiles/lut-Eavg-IS.dir/Eavg_IS.cpp.obj
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h
@@ -117,10 +121,12 @@ CMakeFiles/lut-Eavg-IS.dir/Eavg_IS.cpp.obj
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h
+ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h
  C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h

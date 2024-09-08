@@ -93,12 +93,12 @@ Vec3f IntegrateBRDF(Vec3f V, float roughness, float NdotV) {
     samplePoints sampleList = squareToCosineHemisphere(sample_count);
     for (int i = 0; i < sample_count; i++) {
         // TODO: To calculate (fr * ni) / p_o here
-        Vec3f L = normalize(sampleList.directions[i]);
+        Vec3f L = normalize(sampleList.directions[i]); //这里的L是wi
         Vec3f H = normalize(V + L);
         float PDF = sampleList.PDFs[i];
         float NdotL = std::max(dot(N, L), 0.0f);
 
-        //这里的F是1.0，是镜面反射？
+        //考虑全反射，这里的F是1.0
         float F = 1.0f;
         float D = DistributionGGX(N, H, roughness);
         float G = GeometrySmith(roughness, NdotV, NdotL);

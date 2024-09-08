@@ -70,7 +70,7 @@ Vec3f IntegrateEmu(Vec3f V, float roughness, float NdotV, Vec3f Ei) {
 
 int main() {
     //载入之前计算好的GGX_E_MC_LUT.png
-    unsigned char *Edata = stbi_load("./GGX_E_MC_LUT.png", &resolution, &resolution, &channel, 3);
+    unsigned char *Edata = stbi_load("./GGX_E_LUT.png", &resolution, &resolution, &channel, 3);
     if (Edata == NULL) 
     {
 		std::cout << "ERROE_FILE_NOT_LOAD" << std::endl;
