@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1"
-      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1"
+      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw"
+      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,21 +70,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1'
+        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8abbc/fast
-        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8abbc.dir\\build.make CMakeFiles/cmTC_8abbc.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1'
-        Building C object CMakeFiles/cmTC_8abbc.dir/CMakeCCompilerABI.c.obj
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c91e4/fast
+        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c91e4.dir\\build.make CMakeFiles/cmTC_c91e4.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw'
+        Building C object CMakeFiles/cmTC_c91e4.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc9mBqPA.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc91GS3T.s
         GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -105,17 +105,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc9mBqPA.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc91GS3T.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-        Linking C executable cmTC_8abbc.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8abbc.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8abbc.dir/objects.a
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8abbc.dir/objects.a @CMakeFiles\\cmTC_8abbc.dir\\objects1.rsp
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_8abbc.dir/objects.a -Wl,--no-whole-archive -o cmTC_8abbc.exe -Wl,--out-implib,libcmTC_8abbc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+        Linking C executable cmTC_c91e4.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c91e4.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c91e4.dir/objects.a
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c91e4.dir/objects.a @CMakeFiles\\cmTC_c91e4.dir\\objects1.rsp
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_c91e4.dir/objects.a -Wl,--no-whole-archive -o cmTC_c91e4.exe -Wl,--out-implib,libcmTC_c91e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -125,10 +125,10 @@ events:
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8abbc.exe' '-mtune=core2' '-march=nocona'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccxZIL7M.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_8abbc.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_8abbc.dir/objects.a --no-whole-archive --out-implib libcmTC_8abbc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8abbc.exe' '-mtune=core2' '-march=nocona'
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c91e4.exe' '-mtune=core2' '-march=nocona'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc5BjPt2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_c91e4.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_c91e4.dir/objects.a --no-whole-archive --out-implib libcmTC_c91e4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c91e4.exe' '-mtune=core2' '-march=nocona'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw'
         
       exitCode: 0
   -
@@ -160,21 +160,21 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1']
+        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8abbc/fast]
-        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8abbc.dir\\build.make CMakeFiles/cmTC_8abbc.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-yemxs1']
-        ignore line: [Building C object CMakeFiles/cmTC_8abbc.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c91e4/fast]
+        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c91e4.dir\\build.make CMakeFiles/cmTC_c91e4.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-rz74aw']
+        ignore line: [Building C object CMakeFiles/cmTC_c91e4.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc9mBqPA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc91GS3T.s]
         ignore line: [GNU C17 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -195,8 +195,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc9mBqPA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc91GS3T.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/]
@@ -207,12 +207,12 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8abbc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-        ignore line: [Linking C executable cmTC_8abbc.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8abbc.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8abbc.dir/objects.a]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8abbc.dir/objects.a @CMakeFiles\\cmTC_8abbc.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_8abbc.dir/objects.a -Wl --no-whole-archive -o cmTC_8abbc.exe -Wl --out-implib libcmTC_8abbc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c91e4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking C executable cmTC_c91e4.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c91e4.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c91e4.dir/objects.a]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c91e4.dir/objects.a @CMakeFiles\\cmTC_c91e4.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_c91e4.dir/objects.a -Wl --no-whole-archive -o cmTC_c91e4.exe -Wl --out-implib libcmTC_c91e4.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -229,13 +229,13 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8abbc.exe' '-mtune=core2' '-march=nocona']
-        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccxZIL7M.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_8abbc.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_8abbc.dir/objects.a --no-whole-archive --out-implib libcmTC_8abbc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c91e4.exe' '-mtune=core2' '-march=nocona']
+        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc5BjPt2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_c91e4.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_c91e4.dir/objects.a --no-whole-archive --out-implib libcmTC_c91e4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccxZIL7M.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc5BjPt2.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -259,7 +259,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_8abbc.exe] ==> ignore
+          arg [cmTC_c91e4.exe] ==> ignore
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
@@ -269,10 +269,10 @@ events:
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_8abbc.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_c91e4.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_8abbc.dll.a] ==> ignore
+          arg [libcmTC_c91e4.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -324,8 +324,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf"
-      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf"
+      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp"
+      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -333,21 +333,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf'
+        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a16ab/fast
-        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a16ab.dir\\build.make CMakeFiles/cmTC_a16ab.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf'
-        Building CXX object CMakeFiles/cmTC_a16ab.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ac470/fast
+        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ac470.dir\\build.make CMakeFiles/cmTC_ac470.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp'
+        Building CXX object CMakeFiles/cmTC_ac470.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc2YWYmj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckNgBRw.s
         GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -374,17 +374,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc2YWYmj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckNgBRw.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-        Linking CXX executable cmTC_a16ab.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a16ab.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a16ab.dir/objects.a
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a16ab.dir/objects.a @CMakeFiles\\cmTC_a16ab.dir\\objects1.rsp
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_a16ab.dir/objects.a -Wl,--no-whole-archive -o cmTC_a16ab.exe -Wl,--out-implib,libcmTC_a16ab.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        Linking CXX executable cmTC_ac470.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ac470.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ac470.dir/objects.a
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ac470.dir/objects.a @CMakeFiles\\cmTC_ac470.dir\\objects1.rsp
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_ac470.dir/objects.a -Wl,--no-whole-archive -o cmTC_ac470.exe -Wl,--out-implib,libcmTC_ac470.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -394,10 +394,10 @@ events:
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a16ab.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccYi0Igr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_a16ab.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_a16ab.dir/objects.a --no-whole-archive --out-implib libcmTC_a16ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a16ab.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac470.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc6P2QOF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_ac470.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_ac470.dir/objects.a --no-whole-archive --out-implib libcmTC_ac470.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac470.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp'
         
       exitCode: 0
   -
@@ -435,21 +435,21 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf']
+        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a16ab/fast]
-        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a16ab.dir\\build.make CMakeFiles/cmTC_a16ab.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-y2q9nf']
-        ignore line: [Building CXX object CMakeFiles/cmTC_a16ab.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ac470/fast]
+        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ac470.dir\\build.make CMakeFiles/cmTC_ac470.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-laa6jp']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ac470.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc2YWYmj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckNgBRw.s]
         ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -476,8 +476,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc2YWYmj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckNgBRw.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/]
@@ -488,12 +488,12 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a16ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [Linking CXX executable cmTC_a16ab.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a16ab.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a16ab.dir/objects.a]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a16ab.dir/objects.a @CMakeFiles\\cmTC_a16ab.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_a16ab.dir/objects.a -Wl --no-whole-archive -o cmTC_a16ab.exe -Wl --out-implib libcmTC_a16ab.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ac470.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking CXX executable cmTC_ac470.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ac470.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ac470.dir/objects.a]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ac470.dir/objects.a @CMakeFiles\\cmTC_ac470.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_ac470.dir/objects.a -Wl --no-whole-archive -o cmTC_ac470.exe -Wl --out-implib libcmTC_ac470.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -510,13 +510,13 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a16ab.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccYi0Igr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_a16ab.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_a16ab.dir/objects.a --no-whole-archive --out-implib libcmTC_a16ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac470.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc6P2QOF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_ac470.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\\cmTC_ac470.dir/objects.a --no-whole-archive --out-implib libcmTC_ac470.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccYi0Igr.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc6P2QOF.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -540,7 +540,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_a16ab.exe] ==> ignore
+          arg [cmTC_ac470.exe] ==> ignore
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
@@ -550,10 +550,10 @@ events:
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_a16ab.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_ac470.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_a16ab.dll.a] ==> ignore
+          arg [libcmTC_ac470.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -603,8 +603,8 @@ events:
       - "CMakeLists.txt:32 (FIND_PACKAGE)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh"
-      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh"
+      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2"
+      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -612,21 +612,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh'
+        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2a3d0/fast
-        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a3d0.dir\\build.make CMakeFiles/cmTC_2a3d0.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh'
-        Building C object CMakeFiles/cmTC_2a3d0.dir/OpenMPTryFlag.c.obj
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -fopenmp -v -o CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he0eoh\\OpenMPTryFlag.c
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f4791/fast
+        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f4791.dir\\build.make CMakeFiles/cmTC_f4791.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2'
+        Building C object CMakeFiles/cmTC_f4791.dir/OpenMPTryFlag.c.obj
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -fopenmp -v -o CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8u4mp2\\OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he0eoh\\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckKhsEY.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8u4mp2\\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccWox9ji.s
         GNU C17 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -647,17 +647,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckKhsEY.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccWox9ji.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-        Linking C executable cmTC_2a3d0.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2a3d0.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2a3d0.dir/objects.a
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2a3d0.dir/objects.a @CMakeFiles\\cmTC_2a3d0.dir\\objects1.rsp
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_2a3d0.dir/objects.a -Wl,--no-whole-archive -o cmTC_2a3d0.exe -Wl,--out-implib,libcmTC_2a3d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2a3d0.dir\\linkLibs.rsp
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+        Linking C executable cmTC_f4791.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f4791.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f4791.dir/objects.a
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_f4791.dir/objects.a @CMakeFiles\\cmTC_f4791.dir\\objects1.rsp
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_f4791.dir/objects.a -Wl,--no-whole-archive -o cmTC_f4791.exe -Wl,--out-implib,libcmTC_f4791.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f4791.dir\\linkLibs.rsp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -668,10 +668,10 @@ events:
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
         Reading specs from C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_2a3d0.exe' '-v' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccUeWqs7.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_2a3d0.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccopJgG4 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_2a3d0.exe' '-v' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_f4791.exe' '-v' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccj4BvZe.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_f4791.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccsY3QOj -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_f4791.exe' '-v' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2'
         
       exitCode: 0
   -
@@ -683,21 +683,21 @@ events:
     message: |
       Parsed C OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh']
+        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2a3d0/fast]
-        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a3d0.dir\\build.make CMakeFiles/cmTC_2a3d0.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-he0eoh']
-        ignore line: [Building C object CMakeFiles/cmTC_2a3d0.dir/OpenMPTryFlag.c.obj]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -fopenmp -v -o CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he0eoh\\OpenMPTryFlag.c]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f4791/fast]
+        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f4791.dir\\build.make CMakeFiles/cmTC_f4791.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-8u4mp2']
+        ignore line: [Building C object CMakeFiles/cmTC_f4791.dir/OpenMPTryFlag.c.obj]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -fopenmp -v -o CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8u4mp2\\OpenMPTryFlag.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he0eoh\\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckKhsEY.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8u4mp2\\OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccWox9ji.s]
         ignore line: [GNU C17 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -718,8 +718,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 985ce7ae6dd3a696cd146ca9896b0035]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cckKhsEY.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccWox9ji.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/]
@@ -730,12 +730,12 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_2a3d0.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        ignore line: [Linking C executable cmTC_2a3d0.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2a3d0.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2a3d0.dir/objects.a]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2a3d0.dir/objects.a @CMakeFiles\\cmTC_2a3d0.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_2a3d0.dir/objects.a -Wl --no-whole-archive -o cmTC_2a3d0.exe -Wl --out-implib libcmTC_2a3d0.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_2a3d0.dir\\linkLibs.rsp]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_f4791.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        ignore line: [Linking C executable cmTC_f4791.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f4791.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f4791.dir/objects.a]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_f4791.dir/objects.a @CMakeFiles\\cmTC_f4791.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_f4791.dir/objects.a -Wl --no-whole-archive -o cmTC_f4791.exe -Wl --out-implib libcmTC_f4791.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_f4791.dir\\linkLibs.rsp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -753,13 +753,13 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
         ignore line: [Reading specs from C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_2a3d0.exe' '-v' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccUeWqs7.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_2a3d0.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccopJgG4 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_f4791.exe' '-v' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccj4BvZe.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_f4791.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccsY3QOj -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccUeWqs7.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccj4BvZe.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -785,14 +785,14 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2a3d0.exe] ==> ignore
+          arg [cmTC_f4791.exe] ==> ignore
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
-          arg [@C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccopJgG4] ==> ignore
+          arg [@C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccsY3QOj] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lmingwthrd] ==> lib [mingwthrd]
           arg [-lmingw32] ==> lib [mingw32]
@@ -838,8 +838,8 @@ events:
       - "CMakeLists.txt:32 (FIND_PACKAGE)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut"
-      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut"
+      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y"
+      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -847,21 +847,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut'
+        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1a9f7/fast
-        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1a9f7.dir\\build.make CMakeFiles/cmTC_1a9f7.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut'
-        Building CXX object CMakeFiles/cmTC_1a9f7.dir/OpenMPTryFlag.cpp.obj
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfd5ut\\OpenMPTryFlag.cpp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_81505/fast
+        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_81505.dir\\build.make CMakeFiles/cmTC_81505.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y'
+        Building CXX object CMakeFiles/cmTC_81505.dir/OpenMPTryFlag.cpp.obj
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j9dp4y\\OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfd5ut\\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccVKvUuo.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j9dp4y\\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccdLFEKE.s
         GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -888,17 +888,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccVKvUuo.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccdLFEKE.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-        Linking CXX executable cmTC_1a9f7.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1a9f7.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1a9f7.dir/objects.a
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1a9f7.dir/objects.a @CMakeFiles\\cmTC_1a9f7.dir\\objects1.rsp
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_1a9f7.dir/objects.a -Wl,--no-whole-archive -o cmTC_1a9f7.exe -Wl,--out-implib,libcmTC_1a9f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1a9f7.dir\\linkLibs.rsp
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+        Linking CXX executable cmTC_81505.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_81505.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_81505.dir/objects.a
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_81505.dir/objects.a @CMakeFiles\\cmTC_81505.dir\\objects1.rsp
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_81505.dir/objects.a -Wl,--no-whole-archive -o cmTC_81505.exe -Wl,--out-implib,libcmTC_81505.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_81505.dir\\linkLibs.rsp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -909,10 +909,10 @@ events:
         COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
         Reading specs from C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1a9f7.exe' '-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc32eQXx.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_1a9f7.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccgwZaZV -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1a9f7.exe' '-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_81505.exe' '-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+         C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc3BfWLO.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_81505.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccUCvsBt -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_81505.exe' '-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y'
         
       exitCode: 0
   -
@@ -924,21 +924,21 @@ events:
     message: |
       Parsed CXX OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut']
+        ignore line: [Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1a9f7/fast]
-        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1a9f7.dir\\build.make CMakeFiles/cmTC_1a9f7.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-cfd5ut']
-        ignore line: [Building CXX object CMakeFiles/cmTC_1a9f7.dir/OpenMPTryFlag.cpp.obj]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfd5ut\\OpenMPTryFlag.cpp]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_81505/fast]
+        ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_81505.dir\\build.make CMakeFiles/cmTC_81505.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-j9dp4y']
+        ignore line: [Building CXX object CMakeFiles/cmTC_81505.dir/OpenMPTryFlag.cpp.obj]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j9dp4y\\OpenMPTryFlag.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cfd5ut\\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccVKvUuo.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j9dp4y\\OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=core2 -march=nocona -mthreads -auxbase-strip CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj -version -fopenmp -o C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccdLFEKE.s]
         ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -965,8 +965,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccVKvUuo.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        ignore line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccdLFEKE.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/]
@@ -977,12 +977,12 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_1a9f7.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        ignore line: [Linking CXX executable cmTC_1a9f7.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1a9f7.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1a9f7.dir/objects.a]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1a9f7.dir/objects.a @CMakeFiles\\cmTC_1a9f7.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_1a9f7.dir/objects.a -Wl --no-whole-archive -o cmTC_1a9f7.exe -Wl --out-implib libcmTC_1a9f7.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_1a9f7.dir\\linkLibs.rsp]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_81505.dir\\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        ignore line: [Linking CXX executable cmTC_81505.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_81505.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_81505.dir/objects.a]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_81505.dir/objects.a @CMakeFiles\\cmTC_81505.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_81505.dir/objects.a -Wl --no-whole-archive -o cmTC_81505.exe -Wl --out-implib libcmTC_81505.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_81505.dir\\linkLibs.rsp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -1000,13 +1000,13 @@ events:
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
         ignore line: [Reading specs from C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1a9f7.exe' '-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
-        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc32eQXx.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_1a9f7.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccgwZaZV -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_81505.exe' '-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-mthreads' '-pthread']
+        link line: [ C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc3BfWLO.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_81505.exe C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. @C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccUCvsBt -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc32eQXx.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\cc3BfWLO.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
@@ -1032,14 +1032,14 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_1a9f7.exe] ==> ignore
+          arg [cmTC_81505.exe] ==> ignore
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
-          arg [@C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccgwZaZV] ==> ignore
+          arg [@C:\\Users\\YONGPE~1.CHE\\AppData\\Local\\Temp\\ccUCvsBt] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lmingwthrd] ==> lib [mingwthrd]
           arg [-lmingw32] ==> lib [mingw32]
@@ -1083,8 +1083,8 @@ events:
       - "CMakeLists.txt:32 (FIND_PACKAGE)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-ntsclu"
-      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-ntsclu"
+      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-kf2fwd"
+      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-kf2fwd"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1092,19 +1092,19 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-ntsclu'
+        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-kf2fwd'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fc0e5/fast
-        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fc0e5.dir\\build.make CMakeFiles/cmTC_fc0e5.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-ntsclu'
-        Building C object CMakeFiles/cmTC_fc0e5.dir/OpenMPCheckVersion.c.obj
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -fopenmp -o CMakeFiles\\cmTC_fc0e5.dir\\OpenMPCheckVersion.c.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntsclu\\OpenMPCheckVersion.c
-        Linking C executable cmTC_fc0e5.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fc0e5.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_fc0e5.dir/objects.a
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_fc0e5.dir/objects.a @CMakeFiles\\cmTC_fc0e5.dir\\objects1.rsp
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_fc0e5.dir/objects.a -Wl,--no-whole-archive -o cmTC_fc0e5.exe -Wl,--out-implib,libcmTC_fc0e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_fc0e5.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-ntsclu'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dfad7/fast
+        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dfad7.dir\\build.make CMakeFiles/cmTC_dfad7.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-kf2fwd'
+        Building C object CMakeFiles/cmTC_dfad7.dir/OpenMPCheckVersion.c.obj
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe   -fopenmp -o CMakeFiles\\cmTC_dfad7.dir\\OpenMPCheckVersion.c.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kf2fwd\\OpenMPCheckVersion.c
+        Linking C executable cmTC_dfad7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dfad7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_dfad7.dir/objects.a
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_dfad7.dir/objects.a @CMakeFiles\\cmTC_dfad7.dir\\objects1.rsp
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\gcc.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_dfad7.dir/objects.a -Wl,--no-whole-archive -o cmTC_dfad7.exe -Wl,--out-implib,libcmTC_dfad7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_dfad7.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-kf2fwd'
         
       exitCode: 0
   -
@@ -1115,8 +1115,8 @@ events:
       - "CMakeLists.txt:32 (FIND_PACKAGE)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-uv8crv"
-      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-uv8crv"
+      source: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-sx9di8"
+      binary: "C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-sx9di8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1124,19 +1124,19 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-uv8crv'
+        Change Dir: 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-sx9di8'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5d9bc/fast
-        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5d9bc.dir\\build.make CMakeFiles/cmTC_5d9bc.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-uv8crv'
-        Building CXX object CMakeFiles/cmTC_5d9bc.dir/OpenMPCheckVersion.cpp.obj
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -fopenmp -o CMakeFiles\\cmTC_5d9bc.dir\\OpenMPCheckVersion.cpp.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uv8crv\\OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_5d9bc.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5d9bc.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5d9bc.dir/objects.a
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5d9bc.dir/objects.a @CMakeFiles\\cmTC_5d9bc.dir\\objects1.rsp
-        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_5d9bc.dir/objects.a -Wl,--no-whole-archive -o cmTC_5d9bc.exe -Wl,--out-implib,libcmTC_5d9bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5d9bc.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-uv8crv'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_64637/fast
+        C:/Users/yongpeng.chen/mingw64/mingw64_2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_64637.dir\\build.make CMakeFiles/cmTC_64637.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-sx9di8'
+        Building CXX object CMakeFiles/cmTC_64637.dir/OpenMPCheckVersion.cpp.obj
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe   -fopenmp -o CMakeFiles\\cmTC_64637.dir\\OpenMPCheckVersion.cpp.obj -c C:\\Users\\yongpeng.chen\\Desktop\\games\\game202\\homework5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sx9di8\\OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_64637.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_64637.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_64637.dir/objects.a
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_64637.dir/objects.a @CMakeFiles\\cmTC_64637.dir\\objects1.rsp
+        C:\\Users\\yongpeng.chen\\mingw64\\mingw64_2\\mingw64\\bin\\c++.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_64637.dir/objects.a -Wl,--no-whole-archive -o cmTC_64637.exe -Wl,--out-implib,libcmTC_64637.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_64637.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/yongpeng.chen/Desktop/games/game202/homework5/build/CMakeFiles/CMakeScratch/TryCompile-sx9di8'
         
       exitCode: 0
 ...

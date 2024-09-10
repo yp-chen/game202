@@ -30,6 +30,7 @@ void Denoiser::Reprojection(const FrameInfo &frameInfo) {
             Matrix4x4 preLocalToWorld = m_preFrameInfo.m_matrix[id];
             Float3 localPosition = worldToLocal(position, Float3::EType::Point);
             Float3 preWorldPosition = preLocalToWorld(localPosition, Float3::EType::Point);
+            //也就是P[i−1]
             Float3 preScreenPosition = preWorldToScreen(preWorldPosition, Float3::EType::Point);
             if (preScreenPosition.x < 0 || preScreenPosition.x >= width ||
                 preScreenPosition.y < 0 || preScreenPosition.y >= height) {
@@ -37,6 +38,7 @@ void Denoiser::Reprojection(const FrameInfo &frameInfo) {
             } else {
                 int preId = m_preFrameInfo.m_id(preScreenPosition.x, preScreenPosition.y);
                 //如果当前像素的id和前一帧的id相同，表示是同一个物体，则将当前像素标记为有效
+                //相当于V[i−1]
                 if (preId == id) {
                     m_valid(x, y) = true;
                     m_misc(x, y) = m_accColor(preScreenPosition.x, preScreenPosition.y);
@@ -146,6 +148,7 @@ Buffer2D<Float3> Denoiser::Filter(const FrameInfo &frameInfo) {
     return filteredImage;
 }
 
+//使用ATrousWavelet加速滤波
 Buffer2D<Float3> Denoiser::ATrousWaveletFilter(const FrameInfo &frameInfo) {
     int height = frameInfo.m_beauty.m_height;
     int width = frameInfo.m_beauty.m_width;
@@ -223,7 +226,7 @@ Buffer2D<Float3> Denoiser::ProcessFrame(const FrameInfo &frameInfo) {
     //用于存储当前帧的滤波后的图像
     Buffer2D<Float3> filteredColor;
     //对当前帧进行滤波降噪，返回降噪后的图像
-    filteredColor = ATrousWaveletFilter(frameInfo);
+    filteredColor = Filter(frameInfo);
 
     if (m_useTemportal) {
         //对当前帧进行重投影和时序数据融合
